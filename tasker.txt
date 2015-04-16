@@ -1,0 +1,16 @@
+Tasker setup:
+
+1. Create a new task.
+2. Create an action inside this task
+	a. Category: Net
+	b. Action: HTTP Post
+3. Enter the data below:
+	Server Port: https://example.com:8443
+	Path: hipchat
+	Data:
+	room=100
+	msg=Text from %SMSRF (%SMSRN)
+	from=MFA Phone
+	color=yellow
+
+	Everything else blank/default
