@@ -1,0 +1,21 @@
+{
+    "name": "hipchat-post",
+    "description": "Provides an endpoint to post to hipchat",
+    "author": "Josh Johnson <snofox@snofox.net>",
+    "dependencies": {
+        "express": "3.5.x",
+        "node-hipchat": "0.4.5"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/oktait/hipchat-post.git"
+    },
+    "bugs": {
+        "url": "http://github.com/oktait/hipchat-post/issues"
+    },
+    "main": "index.js",
+    "version": "0.1.0",
+    "engines": {
+        "node": "*"
+    }
+}
